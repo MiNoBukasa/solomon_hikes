@@ -10,7 +10,7 @@ html {
 
 
 header {
-    background-color: white;
+    background-color: palegoldenrod;
     text-align: center;
     padding: 20px;
 }
@@ -37,6 +37,7 @@ h2 {
     text-align: center;
     font-size: 1.5em;
     padding: 20px;
+     font-family: "Climate Crisis", sans-serif;
 }
 
 
@@ -125,3 +126,15 @@ a:focus {
 a:active{
     color: purple;
 } */
+
+.important::after { 
+    content: "Важно!";
+    margin-left: 10px;
+    color: red;  
+}
+
+div img {
+    border: 2px solid #7cfc00;
+    border-radius: 10px;
+}
+
