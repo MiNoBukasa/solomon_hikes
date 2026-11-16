@@ -31,13 +31,30 @@ p {
     font-size: 1.2rem;
     line-height: 1.5rem;
     margin-bottom: 2rem;
+    color: darkblue;
 }
+
+p:lang(en){
+    color: blue;
+}
+
 
 h2 {
     text-align: center;
     font-size: 1.5em;
     padding: 20px;
      font-family: "Climate Crisis", sans-serif;
+     text-decoration: underline;
+     text-transform: uppercase;
+     font-weight: 90;
+     font-style: oblique;
+}
+
+li {
+     text-transform: lowercase;
+     font-weight: 50;
+     font-style: oblique 25deg;
+     font-variant: no-common-ligatures proportional-nums;
 }
 
 
@@ -95,6 +112,7 @@ ul li{
 }
 
 
+
 /*.aboutyou li:nth-child(odd) {
 background-color: blueviolet;
 }
@@ -138,3 +156,10 @@ div img {
     border-radius: 10px;
 }
 
+.aboutme p {
+    color: blue;
+}
+
+img + p {
+    margin-top: 50px;
+}
