@@ -163,3 +163,26 @@ div img {
 img + p {
     margin-top: 50px;
 }
+
+/*---Пример табл и формы---*/
+.my-table {
+    border: double lightblue 5px;
+    border-collapse: collapse;
+}
+
+.my-table td,
+.my-table th {
+    border-bottom: solid black 1px;
+    padding: 10px 20px;
+}
+
+.my-table tbody tr:nth-child(odd) {
+    color: darkblue;
+}
+
+.my-table th:last-child,
+.my-table td:last-child {
+    text-align: right;
+    background-color: #7cfc00;
+}
+
