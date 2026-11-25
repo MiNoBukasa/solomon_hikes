@@ -177,12 +177,60 @@ img + p {
 }
 
 .my-table tbody tr:nth-child(odd) {
-    color: darkblue;
+    color: darkred;
 }
 
-.my-table th:last-child,
+/*.my-table th:last-child,
 .my-table td:last-child {
     text-align: right;
     background-color: #7cfc00;
+}*/
+
+.my-table {
+    background-color: azure;
+}
+
+input {
+    background: yellow;
+    color:#255544;
+    border: 1px solid darkblue;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+input[type=submit] {
+    background-color: black;
+    color: yellow;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background: goldenrod;
+    border-radius: 15px;
+} 
+
+input[type=checkbox],
+input[type=radio] {
+    accent-color: rgb(15, 168, 53);
+}
+
+select, 
+textarea {
+     background: yellow;
+    color:#255544;
+    border: 1px solid darkblue;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 180px;
+}
+
+textarea {
+width: 150px;
+}
+
+input, textarea, select {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
 }
 

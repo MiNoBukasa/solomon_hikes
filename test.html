@@ -62,13 +62,32 @@
 
     <form id="reg" action="">
  <label for="mail">Введите почту</label><br>
-<input type="email" name="mail" id="mail" placeholder="pelmen22@mail.ru" required><br>
+<input autofocus type="email" name="mail" id="mail" placeholder="pelmen22@mail.ru" required><br>
 
         <label for="login">Введите логин</label><br>
 <input type="text" name="login" id="login" placeholder="Логин" required><br>
 
  <label for="pass">Введите пароль</label><br>
  <input type="pass" name="pass" id="pass" placeholder="Пароль" required><br>
+
+ <p>Выбор пола</p>
+<input type="radio" name="gender" id="female" value="female">
+<label for="female">ж</label>
+<input type="radio" name="gender" id="male" value="male">
+<label for="male">м</label><br><br>
+
+<label for="city">Выберите город</label>
+<select name="city" id="city">      
+    <option disabled selected>Выбрать город</option>
+    <option value="chel">Челябинск</option>
+    <option value="zad">Задрыпинск</option>
+      <option value="muh">Мухобрянск</option>
+      <option value="lup">Лупинск</option>
+      <option value="chu">Чушкоград</option>
+</select><br>
+
+<label for="info">Доп информация</label><br>
+<textarea rows="5" cols="20" name="info" id="info" placeholder="Введите текст"></textarea><br>
 
  <input type="checkbox" name="agreement" id="agreement" required checked>
 <label for="agreement"> Согласие на обработку перс данных </label> <br>
